@@ -1,0 +1,85 @@
+/*********************************************************************
+  YOUR MOBILE/BASE STYLES GO HERE
+*********************************************************************/
+* {
+    margin: 10px;
+}
+
+html, body {
+    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    font-size: 16px;
+    background-color: #f9dcdf
+}
+H1 {
+  text-align: center;
+}
+#mybyline {
+  text-align: center;
+  font-style: italic;
+}
+.google_search {
+  display: block;
+  text-align: center;
+}
+figcaption {
+  font-size: 12px;
+}
+.icon {
+  display: block;
+  max-width: 100%;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.container {
+  display: block;
+  padding: 5px;
+  margin: 10px;
+}
+#sources {
+  text-indent: 15px
+}
+
+/*********************************************************************
+  YOUR TABLET/DESKTOP STYLES GO HERE
+*********************************************************************/
+@media(min-width: 900px) {
+  .google_search > div {
+    margin: 30%;
+  }
+  .container {
+    max-width: 900px;
+    border: 5px solid black;
+    margin: 5% 22%;
+  }
+  .container > div {
+    flex-basis: 60%
+  }
+  .row {
+    display: flex;
+    align-items:center;
+  justify-content: space-between;
+    max-width: 900px;
+    margin: auto;
+  }
+.row > div {
+  flex-basis: 60%;
+  padding: 10px;
+}
+
+  .row {
+    max-width: 900px;
+    padding: 5px;
+  }
+  .icondescription{
+    width: 100%
+  }
+}
+    /* Any adjustments for tablets and larger go here.
+
+/*********************************************************************
+  YOUR DESKTOP-ONLY STYLES GO HERE
+*********************************************************************/
+@media(min-width: 729px) {
+    /* Any adjustments for desktop and larger go here.
+    Note these styles will be applied to anything 729px or larger -- so desktop */
+}
