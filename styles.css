@@ -20,6 +20,7 @@ H1 {
 .google_search > div {
   display: block;
   text-align: center;
+  align-content: center;
   margin: 0px 5px;
 }
 .responsive {
