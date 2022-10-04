@@ -44,8 +44,8 @@ figcaption {
   YOUR TABLET/DESKTOP STYLES GO HERE
 *********************************************************************/
 @media(min-width: 900px) {
-  .google_search > div {
-    margin: 30%;
+  .google_search {
+    margin: 20%;
   }
   .container {
     max-width: 900px;
