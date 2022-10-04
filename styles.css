@@ -17,18 +17,18 @@ H1 {
   text-align: center;
   font-style: italic;
 }
-.google_search > div {
-  display: block;
-  text-align: center;
-  align-content: center;
-  margin: 0px 5px;
-}
-.responsive {
-  width: 80%;
-  height: auto;
-}
-figcaption {
-  font-size: 12px;
+.google_search {
+    display: block;
+    text-align: center;
+    margin: 0px 5px;
+  }
+  .responsive {
+    width: 70%;
+    height: auto;
+  }
+  figcaption {
+    font-size: 12px;
+    text-align: center;
 }
 .icon {
   display: block;
