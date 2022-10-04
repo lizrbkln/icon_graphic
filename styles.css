@@ -22,6 +22,10 @@ H1 {
   text-align: center;
   margin: 0px 5px;
 }
+.responsive {
+  width: 80%;
+  height: auto;
+}
 figcaption {
   font-size: 12px;
 }
